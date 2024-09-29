@@ -20,12 +20,22 @@ pip install pandas matplotlib minisom scikit-learn
 
 ## Instructions
 1. Clone the repository
-```bash
-git clone https://github.com/your-username/SOM-Wine-Clustering.git
+git clone https://github.com/trivikram-06/SOM-Wine-Clustering.git
 cd SOM-Wine-Clustering
 
 ## 2. Run the Python Scripts
 1. Train the SOM and Save Cluster Data
-This script trains the SOM on the wine dataset and saves the cluster data in a CSV file.
-```bash
+This script trains the SOM on the wine dataset and saves the cluster data in a CSV file
 python wine_quality_segmentation.py
+
+##3. Generate U-Matrix Heatmap
+This script generates and saves the U-Matrix heatmap, which shows the distances between neurons.
+python uplot_umatrix.py
+
+##4. Visualize Clusters with Markers
+This script visualizes the SOM clusters with different markers based on the wine quality.
+python uplot_umatrix.py
+
+##5. Plot Average Wine Quality by Cluster
+This script creates a bar chart of the average wine quality for each cluster.
+python plot_bar_graphss.py
