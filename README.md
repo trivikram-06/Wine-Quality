@@ -34,7 +34,7 @@ python uplot_umatrix.py
 
 ##4. Visualize Clusters with Markers
 This script visualizes the SOM clusters with different markers based on the wine quality.
-python uplot_umatrix.py
+python uplot2_umatrix.py
 
 ##5. Plot Average Wine Quality by Cluster
 This script creates a bar chart of the average wine quality for each cluster.
