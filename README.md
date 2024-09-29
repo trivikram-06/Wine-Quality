@@ -17,7 +17,9 @@ Before running the code, ensure you have the following libraries installed:
 ```bash
 pip install pandas matplotlib minisom scikit-learn
 
-## 1. Clone the repository
+
+## Instructions
+1. Clone the repository
 ```bash
 git clone https://github.com/your-username/SOM-Wine-Clustering.git
 cd SOM-Wine-Clustering
